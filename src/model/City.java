@@ -10,11 +10,8 @@ public class City {
 	public City() {}
 	
 	public City(int id, String name, String countryCode, String district, int population) {
+		this(name, countryCode, district, population);
 		setID(id);
-		setName(name);
-		setCountryCode(countryCode);
-		setDistrict(district);
-		setPopulation(population);
 	}
 	
 	public City(String name, String countryCode, String district, int population) {
